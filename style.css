@@ -1,0 +1,500 @@
+    html {
+        font-size: 15px;
+    }
+    
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        width: 100%;
+        height: 4rem;
+        background: red;
+        color: black;
+        margin: 6rem 0 1rem 0;
+    }
+    
+    .header p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+    /*nav start here*/
+    
+    .navbar {
+        width: 100%;
+        box-shadow: 0px 5px 10px 0px #aaa;
+        position: fixed !important;
+        top: 0;
+        background: #143;
+        opacity: 0.85;
+        z-index: 100000;
+    }
+    
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        height: 4rem;
+    }
+    
+    .logo {
+        padding: 1rem 0 0 1rem;
+        color: lightcoral;
+        font-size: 2rem;
+    }
+    
+    ul {
+        display: flex;
+        padding-top: 1rem;
+    }
+    
+    ul li {
+        margin-right: 2rem;
+    }
+    
+    ul li a {
+        color: whitesmoke;
+    }
+    
+    #menubar {
+        font-size: 2.2rem;
+        display: none;
+        padding: 1rem 2rem;
+        color: black;
+    }
+    /*nav ends here*/
+    /* slider strat here*/
+    
+    .carousel-inner .slider-image img {
+        width: 80%;
+        margin: 5rem 0 2rem 8rem;
+        border-radius: 3rem;
+    }
+    
+    .carousel-inner .slider-image {
+        width: 80%;
+    }
+    
+    .carousel-inner .slider-text {
+        width: 20%;
+        padding-top: 8.5rem;
+        padding-right: 8rem;
+    }
+    
+    .carousel-inner .slider-text h2 {
+        font-size: 3.6rem;
+        color: rgb(224, 119, 142);
+    }
+    
+    .carousel-inner .slider {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        transition: all 1s ease-in-out;
+        background: rgb(246, 248, 247);
+    }
+    /*slider ends here*/
+    /* about us strat here*/
+    
+    .about {
+        padding: 2rem 4rem;
+    }
+    
+    .about .about-textbox {
+        width: 300px;
+    }
+    
+    .about .about-textbox p {
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.9rem;
+        word-spacing: 0.1rem;
+    }
+    
+    .about .about-imagebox {
+        width: 350px;
+    }
+    
+    .about .about-imagebox img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    /*about us ends here*/
+    
+    .service {
+        background: whitesmoke;
+    }
+    
+    .about .about-textbox {
+        width: 45%;
+    }
+    
+    .about .about-textbox img {
+        width: 100%;
+    }
+    /* service strat here*/
+    
+    .inner h1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding: 1rem 0;
+        text-align: center;
+        color: lightskyblue;
+    }
+    
+    .inner p {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .flex-box {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .service .service-image {
+        width: 310px;
+        margin: 0 auto;
+    }
+    
+    .service .service-image img {
+        width: 90%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .service .service-image h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    /* service  ends here*/
+    /* why us strat here*/
+    
+    .whyus {
+        background-color: #aaa;
+        padding: 2rem 0;
+        background-attachment: fixed;
+    }
+    
+    .whyus .textbox i {
+        font-size: 6rem;
+        border: 5px solid lightseagreen;
+        border-radius: 100%;
+        padding: 1rem;
+    }
+    
+    .whyus .textbox .i {
+        text-align: center;
+    }
+    
+    .whyus .textbox .box1 {
+        color: lightgreen;
+    }
+    
+    .whyus .textbox .box2 {
+        color: lightsalmon;
+    }
+    
+    .whyus .textbox .box3 {
+        color: lightgreen;
+    }
+    
+    .whyus .textbox .box4 {
+        color: lightsalmon;
+    }
+    
+    .whyus .innner h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 1rem 0;
+        text-align: center;
+        color: lightskyblue;
+        text-transform: capitalize;
+    }
+    
+    .whyus .innner h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .whyus .textbox {
+        width: 22%;
+        margin: 0 auto;
+    }
+    
+    .whyus .textbox h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1rem 0;
+        word-spacing: 0.1rem;
+        text-align: center;
+    }
+    
+    .whyus .textbox p {
+        font-size: 1.2rem;
+        padding: 1rem 0;
+        word-spacing: 0.1rem;
+        line-height: 2.3rem;
+        padding: 0 0.5rem;
+        ;
+    }
+    /* why us nds here*/
+    /* 
+    testimonila start  here*/
+    
+    #testimonial {
+        width: 100%;
+        background: lemonchiffon;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    
+    .testimonial .testimonial-textbox {
+        width: 24%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .testimonial .inner h4 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .testimonial .testimonial-textbox img {
+        width: 30%;
+        border-radius: 100%;
+    }
+    
+    .testimonial .testimonial-textbox p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 2rem;
+        word-spacing: 0.01rem;
+    }
+    /*testimonial ends here*/
+    /*forms start here*/
+    
+    form {
+        z-index: 999;
+    }
+    
+    .form {
+        width: 100%;
+        height: auto;
+        background-image: url("image/banner.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        background: url("image/banner.jpeg") rgb(0, 0, 0, 0.623);
+        background-blend-mode: darken;
+        padding: 1rem 0;
+        margin-top: 1rem;
+    }
+    
+    .form h1 {
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 3rem;
+        color: lightskyblue;
+        z-index: 999;
+        text-transform: capitalize;
+    }
+    
+    .form-box {
+        width: 80%;
+        padding: 0.8rem;
+        color: white;
+        background: #000;
+    }
+    
+    .form-box:hover {
+        background: rgba(138, 94, 226, 0.4);
+        transition: all 1s ease-in-out;
+        width: 80%;
+        color: #143;
+    }
+    
+    .select-box {
+        width: 50%;
+        padding: 1rem 0;
+        color: white;
+        background: #000;
+    }
+    
+    .mybutton {
+        width: 30%;
+        padding: 1rem 0;
+        color: maroon !important;
+    }
+    
+    .mybutton:hover {
+        background: maroon !important;
+        color: #fff !important;
+    }
+    /*forms ends here*/
+    /*company start here*/
+    
+    .company .inner {
+        padding: 1rem 3rem;
+    }
+    
+    .company {
+        width: 100%;
+        background: lemonchiffon;
+        padding: 2rem 0;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    
+    .company-text {
+        width: 22%;
+        text-align: center;
+    }
+    
+    .content {
+        padding-left: 4rem;
+    }
+    
+    .company .company-text h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 1rem 0;
+    }
+    
+    .company .company-text p {
+        line-height: 1.7rem;
+        font-size: 1.2rem;
+        word-spacing: 0.1rem;
+    }
+    
+    .company .company-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .company .company-text h4 {
+        font-size: 1.5rem;
+        margin: 3rem 0;
+    }
+    
+    .company h5 {
+        text-align: center;
+        font-size: 1.2rem;
+        color: grey;
+        margin-top: 6rem;
+    }
+    /*coompany ends here*/
+    
+    @media only screen and (max-width:991px) {
+        .whyus .textbox {
+            width: 310px;
+        }
+        .testimonial .testimonial-textbox {
+            width: 310px;
+        }
+        .testimonial .testimonial-textbox img {
+            width: 20%;
+        }
+        .carousel-inner .slider {
+            width: 100%;
+        }
+        .mohare {
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        ul {
+            display: none;
+            position: absolute;
+            top: 4rem;
+            padding: 3rem 0rem;
+            background: lightskyblue;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 1.6rem;
+        }
+        ul li {
+            padding: 1.2rem 0;
+            margin-right: 0;
+            border-bottom: 0.5rem solid rgb(221, 99, 99);
+        }
+        ul li a {
+            color: black;
+            font-weight: 700;
+            font-size: 1.3rem;
+            z-index: 111111;
+        }
+        #menubar {
+            display: block;
+        }
+        .company-text {
+            width: 270px;
+            margin: 0 auto;
+        }
+        .content {
+            padding-left: 0;
+        }
+        .about .about-textbox {
+            width: 100%;
+        }
+        .about .about-imagebox {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .about .about-imagebox img {
+            width: 100%;
+        }
+        .carousel-inner .slider-image {
+            width: 90%;
+            height: 120px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .carousel-inner .slider-image img {
+            width: 100%;
+            margin-top: 3rem;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+        .carousel-inner .slider-text {
+            display: none;
+        }
+        .carousel-inner .slider {
+            height: 300px;
+        }
+    }
+    
+    @media only screen and (max-width:670px) {
+        .whyus .textbox {
+            width: 100%;
+        }
+        .testimonial .testimonial-textbox {
+            width: 100%;
+        }
+        .service .service-image {
+            width: 80%;
+            text-align: center;
+        }
+        .service .service-image img {
+            width: 75%;
+        }
+        .about .about-imagebox img {
+            width: 80%;
+        }
+        .testimonial .testimonial-textbox img {
+            width: 12%;
+        }
+    }
